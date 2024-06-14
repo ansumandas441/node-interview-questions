@@ -262,7 +262,7 @@ console.log('End');
 - **Node.js**: Well-suited for data-intensive, real-time applications like collaborative tools, gaming, or social media platforms. Its lightweight, scalable nature also complements cloud deployments.
 <br>
 
-### 6. Explain what "non-blocking" means in Node.js.
+## 6. Explain what "non-blocking" means in Node.js.
 
 **Node.js leverages non-blocking I/O** to handle multiple operations without waiting for each to complete separately.
 
@@ -293,16 +293,11 @@ By not using threads, Node.js eliminates many of the complexities associated wit
 Here is the JavaScript code:
 
 ```javascript
-const fs = require('fs');
-
-// Perform non-blocking file read operation
-fs.readFile('path/to/file', (err, data) => {
-    if (err) throw err;
-    console.log(data);
-});
-
-// Other non-blocking operations continue without waiting for file read
-console.log('This message is displayed immediately.');
+     document
+       .getElementById("link")
+       .addEventListener("click", function (event) {
+         event.preventDefault();
+       });
 ```
 
 In this example, the file read operation is non-blocking. Node.js does not halt the thread of execution to wait for the file read to complete. Instead, the supplied callback function is invoked when the read operation finishes.
