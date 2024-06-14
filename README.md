@@ -17,6 +17,7 @@
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is Node.js and why is it used](#What-is-Node.js-and-why-is-it-used) |
+| 2 | [Explain what "non-blocking" means in Node.js.](#Explain-what-"non-blocking"-means-in-Node.js.) |
 
 
 ## 1. What is Node.js and why is it used?
