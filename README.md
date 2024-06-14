@@ -262,7 +262,7 @@ console.log('End');
 - **Node.js**: Well-suited for data-intensive, real-time applications like collaborative tools, gaming, or social media platforms. Its lightweight, scalable nature also complements cloud deployments.
 <br>
 
-## 6. Explain what "non-blocking" means in Node.js.
+### 6. Explain what "non-blocking" means in Node.js.
 
 **Node.js leverages non-blocking I/O** to handle multiple operations without waiting for each to complete separately.
 
